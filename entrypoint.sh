@@ -1,5 +1,6 @@
 #!/bin/sh
 set -u
+set -e
 
 cp -f /ssh/id_rsa /root/.ssh/id_rsa 2> /dev/null
 chmod 600 /root/.ssh/id_rsa 2> /dev/null
